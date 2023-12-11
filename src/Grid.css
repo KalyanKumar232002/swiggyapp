@@ -1,0 +1,48 @@
+div.scroll-container {
+  background-color: #f0f0f0;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+.fixed-heading {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff; /* Adjust the background color as needed */
+  text-align: center;
+  padding: 10px;
+  z-index: 1; /* Ensure the heading is above the scrolling content */
+}
+
+
+div.scroll-container img {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+/* Grid.css */
+.rating {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.rating-text {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.rating-symbol {
+  font-size: 20px;
+  color: gold; /* or any color you prefer for the rating symbol */
+}
+
+
+.card {
+  margin-bottom: 15px; /* You can adjust this value to increase or decrease the gap between cards */
+}
+.button-spacing {
+  margin-right: 10px;
+}
+
+

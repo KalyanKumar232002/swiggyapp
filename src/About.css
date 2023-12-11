@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-child {
+    flex: 1;
+    padding: 20px;
+}
+
+.right-child {
+    flex: 1;
+    padding: 20px;
+}
+
+.right-child img {
+    max-width: 100%;
+    height: auto;
+    
+}
